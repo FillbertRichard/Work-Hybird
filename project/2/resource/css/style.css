@@ -1,23 +1,71 @@
 body {
     font-family: 'Merriweather','Roboto',sans-serif, serif;
+    background-color: antiquewhite;
+    margin: 20px 100px;
 }
 
-header {
+.bar {
     display: flex;
-    position: top;
-    font-weight: 200;
+    justify-content: space-between;
 }
 
 .bar__icon {
-    padding: 10px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
 }
 
 .bar__menu {
-    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-input {
-    text-align: center;
-    font-size: 10px;
-    padding: 5px 7px; 
+.menu__btn {
+    margin: 2px 20px;
+    font-size: 13px;
+}
+
+.menu__btn a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.menu__btn a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.menu__btn a:hover {
+    color: coral;
+    text-decoration: none;
+}
+
+.menu__btn a:active {
+    color: coral;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
+
+.question img{
+    width: 600px;
+    height: 300px;
+}
+
+nav .title{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
 }
