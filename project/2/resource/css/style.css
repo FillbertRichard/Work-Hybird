@@ -1,6 +1,6 @@
 body {
     font-family: 'Merriweather','Roboto',sans-serif, serif;
-    background-color: antiquewhite;
+    background-color: white;
     margin: 20px 100px;
     max-width: 1200px;
 }
@@ -8,9 +8,10 @@ body {
 .color-background {
     background-color: aliceblue;
     border: none;
-    border-radius: 20px;
-    margin: 30px 0;
+    border-radius: 2px;
+    margin: 30px 0 50px 0;
     padding: 20px 40px;
+    box-shadow: 10px 10px 3px 2px lightblue;
 }
 
 .bar {
@@ -21,6 +22,7 @@ body {
 .bar__icon {
     width: 40px;
     height: 40px;
+    margin-left: 40px;
 }
 
 #icon {
