@@ -1,0 +1,232 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*  #ffffff • 
+    #d0e1f9 •
+    #4d648d • 
+    #283655 • 
+    #1e1f26 */
+
+html{
+    margin: 0;
+    padding: 0;
+    background: url(./src/img/rafater-privateer-press-skell-environment-by-rafater.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.home {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d0e1f9;
+    height: 650px;
+    width: 100%;
+    top: -10px;
+    font-size: 40px;
+}
+
+.home h4 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.home h5 {
+    margin-top: -40px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.home h1 {
+    font-size: 40px;
+    font-weight: 450;
+    margin-top: 150px;
+}
+
+.home input{
+    border-radius: 10px;
+    border: 5px solid #283655;
+    width: 18%;
+    height: 10%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 650;
+    color: #283655;
+    background-color: #d0e1f9;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 0.7s ease-in-out;
+    -o-transition: background-color 0.7s ease-in-out;
+    transition: background-color 0.7s ease-in-out;
+}
+
+.home input:hover {
+    border: 5px solid #d0e1f9;
+    background-color: #283655;
+    color: #d0e1f9;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0e1f9;
+    color: #283655;
+    width: 100%;
+    height: 500px;
+}
+
+.intro h3,p {
+    margin: 0 20px 0 50px;
+    width: 60%;
+}
+
+.intro img {
+    width: 600px;
+    position: relative;
+    right: 20px;
+    top: 20px;
+    border: none;
+    border-radius: 70px 10px;
+    box-shadow:15px 15px 10px #283655;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    background-color: #283655;
+    color: #d0e1f9;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+}
+
+.job-title h3 {
+    font-size: 50px;
+    font-weight: 350;
+    position: relative;
+    top: -20px;
+}
+
+.job-file {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.file-1,.file-2 {
+    background-color: #ffffff;
+    color: #283655;
+    border: 2px solid #d0e1f9;
+    border-radius: 20px;
+    position: relative;
+    bottom: 40px;
+    font-size: 25px;
+    box-shadow: 10px 10px 5px #d0e1f9;
+}
+
+.file-1 h4,.file-2 h4 {
+    font-weight: 500;
+}
+
+.job img {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.service {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d0e1f9;
+    color:#283655;
+    font-size: 30px;
+    height: 650px;
+    width: 100%;
+    margin: 0;
+}
+
+.service img {
+    width: 350px;
+    border-radius: 20px 20px 0 0;
+}
+
+.service h3 {
+    font-weight: 480;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.service h4 {
+    font-weight: 550;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 80px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.container-1, .container-2, .container-3 {
+    background-color: #283655;
+    color: #d0e1f9;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 8px 8px 6px #283655;
+}
+
+.promise {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-color: #283655;
+    color: #d0e1f9;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+
+.promise-end {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.end-1 {
+    align-items: center;
+}
+
+.end-2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.promise img {
+    width: 700px;
+    border: none;
+    border-radius: 0 70px 0 70px;
+    box-shadow: 15px 15px 10px #d0e1f9;
+}
