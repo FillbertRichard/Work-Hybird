@@ -1,0 +1,11 @@
+select *,ThuTrongTuan=case datepart(dw,NgayDH)
+ when 1 then N'Chủ nhật'
+ when 2 then N'Thứ 2'
+ when 3 then N'Thứ 3'
+ when 4 then N'Thứ 4'
+ when 5 then N'Thứ 5'
+ when 6 then N'Thứ 6'
+ when 7 then N'Thứ 7'
+ end
+ from DONDH
+// hiển thị ngày trong tuần
